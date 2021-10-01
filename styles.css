@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7c7c7c;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 65, 65);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 54, 54);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #282828;
+  color: #fff;
+  margin: 0;
+  overflow-x: hidden;
+}
+hr {
+  background-color: #c4c4c4;
+}
+/* Notice section */
+.notice {
+  background-color: #394720;
+  text-align: center;
+  padding: 0.6rem 0;
+}
+.learn-more-button {
+  border-radius: 500px;
+  color: #394720;
+  font-family: inherit;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding: 0 3rem;
+}
+.logo {
+  margin: 1rem;
+}
+
+.nav-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  margin: 1rem;
+  font-weight: 600;
+  color: #333333;
+}
+.join-now {
+  height: 3rem;
+  padding: 0.3rem 3rem;
+  background-color: #eebb3d;
+  color: white;
+  border: 0;
+  border-radius: 500px;
+}
+
+/* First Section */
+.first {
+  display: flex;
+  padding: 10rem 14rem;
+  align-items: center;
+  background-color: rgb(69, 87, 34);
+  background-image: url(images/DJI_0528\ 1.png);
+  background-blend-mode: soft-light;
+  background-size: cover;
+}
+.container {
+  width: 50%;
+}
+.first .container.left {
+  margin: 0 10rem 0 0;
+}
+.first .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 40rem;
+}
+.title-hr {
+  margin-right: 20rem;
+  margin-bottom: 1rem;
+}
+.sub-title {
+  line-height: 150%;
+  font-weight: 400;
+  width: 35rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+input {
+  width: 25rem;
+  height: 3.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 0;
+}
+input::placeholder {
+  font-size: 1.2rem;
+}
+.learn-more {
+  background-color: #eebb3d;
+  padding: 1rem 5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: 0;
+  border-radius: 500px;
+  color: white;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 485px;
+}
+
+.container.right {
+  transform: translate(7rem);
+  width: 50%;
+}
+
+.featured-by-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.featured-by {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured-companies {
+  vertical-align: top;
+  height: 100%;
+  max-height: 4rem;
+  max-width: calc(33.3% - 20px);
+  width: 100%;
+  margin: 0 10px 35px;
+}
+
+/* Second Section */
+.second {
+  display: flex;
+  background-color: white;
+  color: black;
+}
+.second .container.left {
+  padding-top: 10rem;
+}
+.second .container.left,
+.second .container.right {
+  width: 50%;
+}
+
+.second .left hr {
+  width: 28rem;
+  transform: translate(15rem);
+  margin: 2rem 0;
+}
+.second .left .title {
+  color: #333333;
+  width: auto;
+  font-size: 2.25rem;
+  font-weight: 700;
+  transform: translate(15rem);
+}
+.second .left .sub-title {
+  color: #333333;
+  font-size: 1.1rem;
+  line-height: 150%;
+  width: 30rem;
+  transform: translate(15rem);
+}
+.second .container.right img {
+  width: 100%;
+  transform: translate(-3rem);
+}
